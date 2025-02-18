@@ -4,62 +4,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRAFTLAB</Title>
-  </title>
-  <link rel="stylesheet" href="style.css">
+  <title>CRAFTLAB</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
   <header>
+    <div class="full-upper">
     <div class="upper">
-      <img src="images/craftlabai_logo.jfif" alt="Logo" class="logo">
+      <img src="images/craftlab-logo.png" alt="Logo" class="logo">
       <div class="heading">
         <h1>META CRAFTLAB</h1>
         <p class="tagline">Crafting the extraordinary — one idea at a time</p>
       </div>
+    </div>
     </div>
 
     <nav class="lower">
 
       <div class="link-header">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Product</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="page_one.html">Product</a></li>
         </ul>
       </div>
       <div class="link-header">
         <ul>
           <li><a href="#">Media</a></li>
-          <li><a href="#">Support</a></li>
+          <!-- <li><a href="#">Support</a></li> -->
+          <li class="dropdown">
+            <a href="#">Support</a>
+            <ul class="dropdown-menu">
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#help">Help Center</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </nav>
   </header>
   <main>
-    <section class="banner">
+    <section class="banner" id="home">
       <div class="image-container">
-        <img src="images/image-slide-1.jfif" alt="Banner Image">
+        <!-- <img src="images/bg1.png" alt="Banner Image"> -->
 
         <div class="banner-content">
-          <h1>Great Start</h1>
-          <p>Empowering Your Business to Excel in a Dynamic World</p>
-          <a href="#" class="button">Click Here</a>
+          <h1>Empowering Your Business to Excel in a Dynamic World</h1>
+          <p>We forge strategic partnerships with businesses across all scales—from budding startups to established corporations. Our focus is on delivering groundbreaking and transformative solutions that catalyze real-world success.</p>
+          <a href="#" class="button">Let's Talk</a>
         </div>
       </div>
     </section>
 
+    <section id="about">
+      <div class="about">
+        <h1>About us</h1>
+        <div class="about-content">
+          <p>Craftlab stands as a testament to the seamless integration of art and science, embodying our core ethos and vision. The word “Lab” in our name reflects a commitment to continual innovation, research, and the unrelenting pursuit of knowledge. “Craft” complements this by emphasizing our appreciation for the meticulous and artistic aspects of creation. Together, these concepts illustrate our aim to blend scientific precision with creative artistry.
+            Craftlab is more than just a name; it represents our mission to forge a distinctive space where creative visions and technical precision converge, pushing the boundaries of innovation and design.</p>
+      </div>
+      
+      <div class="about-2xcontent">
+       <div class="mission just"> 
+        <h2>Our Mission</h2>
+        <q>Our mission is to redefine the world by empowering users. We commit to exceptional service, pushing the boundaries of creativity to inspire and transform experiences. Our dedication to excellence drives us to establish new benchmarks that enrich lives and empower individuals to achieve the extraordinary.</q>
+       </div>
+     
+    
+        <div class="values just"> 
+         <h2>Our Values</h2>
+         <q>We are driven by core values that shape our operations and steer our future.These principles are commitments reflected in every decision, interaction. Anchored in innovation & dedication, our values guide us as we make impactful advances in technology and community engagement.</q>
+        </div>
+       </div>
+      </div>
+      </div>
+   
+    </section>
 
-    <section>
+    <section id="product">
       <div class="box">
         <div class="inner-box">
           <div class="image-box">
-            <a href="#"><img src="images/image-slide-1.jfif" alt="Product-1"></a>
+            <a href="#"><img src="images/p4.png" alt="Product-1"></a>
           </div>
           <div class="text-box">
-            <h1 class="title-box">Responsive Design</h1>
-          Responsive design for desktop, laptop, tablet, smart phones and other mobile devices.
-            <br>
+            <h1 class="title-box">Cloud Computing</h1>
+          <p>Responsive design for desktop, laptop, tablet, smart phones and other mobile devices.</p>
             <div class="link-td">
               <a href="#">Product one</a> | <a href="#">Site map</a>
             </div>
@@ -67,40 +100,37 @@
         </div>
         <div class="inner-box">
           <div class="image-box">
-            <a href="#"><img src="images/image-slide-1.jfif" alt="Product-1"></a>
+            <a href="#"><img src="images/p2.png" alt="Product-1"></a>
           </div>
           <div class="text-box">
-            <h1 class="title-box">Responsive Design</h1>
-            Responsive design for desktop, laptop, tablet, smart phones and other mobile devices.
-            <br>
+            <h1 class="title-box">Artifical Intelligence</h1>
+           <p> Responsive design for desktop, laptop, tablet, smart phones and other mobile devices.</p>
             <div class="link-td">
-              <a href="#">Product one</a> | <a href="#">Site map</a>
+              <a href="#">Product two</a> | <a href="#">Site map</a>
             </div>
           </div>
         </div>
         <div class="inner-box">
           <div class="image-box">
-            <a href="#"><img src="images/image-slide-1.jfif" alt="Product-1"></a>
+            <a href="#"><img src="images/p3.png" alt="Product-1"></a>
           </div>
           <div class="text-box">
-            <h1 class="title-box">Responsive Design</h1>
-            Responsive design for desktop, laptop, tablet, smart phones and other mobile devices.
-            <br>
+            <h1 class="title-box">Machine Learning</h1>
+            <p>Responsive design for desktop, laptop, tablet, smart phones and other mobile devices.</p>
             <div class="link-td">
-              <a href="#">Product one</a> | <a href="#">Site map</a>
+              <a href="#">Product three</a> | <a href="#">Site map</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-
   </main>
   
-<footer>
+<!-- <footer>
  
   <div class="footer-container">
-    <div class="container-box box1">
+    <div class="container-box">
       <h4>Company</h4>
       <ul>
         <li><a href="#">Home</a></li>
@@ -126,10 +156,49 @@
     </div>
   </div>
   <div class="sub-footer">
-    ©Copyright 2025. Rifat Perween. All Rights Reserved
+    ©2025 Rifat Perween - All Rights Reserved
+  </div>
+</footer> -->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h2 class="brand"><h2>Meta Craftlab</h2>
+      <p>Crafting the extraordinary — one idea at a time</p>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a> <!-- X (Twitter) -->
+    </div>
+    </div>
+
+    <div class="footer-section">
+      <h3>Company</h3>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Product</h3>
+      <ul>
+        <li><a href="#">Product One</a></li>
+        <li><a href="#">Product Two</a></li>
+        <li><a href="#">Product Three</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Connect</h3>
+      <p>The Capital,<br>Bandra Kurla Complex,<br>Mumbai</p>
+      <p><a href="mailto:hello@craftlab.ai">hello@craftlab.ai</a></p>
+      <p><a href="tel:+9199999999">+91 9999999999</a></p>
+    </div>
+  </div>
+  <div class="sub-footer">
+    ©2025 Rifat Perween - All Rights Reserved
   </div>
 </footer>
-
 </body>
 
 </html>

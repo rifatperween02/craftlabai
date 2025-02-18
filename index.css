@@ -1,0 +1,365 @@
+* {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: black; */
+    /* top: 0;
+    position: sticky;
+    z-index: 999;
+    width: 100%;
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5); */
+}
+
+.tagline {
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+    /* font-size: 1.2 rem; */
+}
+
+.logo {
+    margin-right: 1rem;
+    height: 3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    color: white;
+    padding: 0.25rem 1.25rem;
+    
+}
+.full-upper{
+    width: 100%;
+    background-color: black;
+}
+.upper h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lower {
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding: 1.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+
+.link-header ul a {
+    color: white;
+}
+
+.link-header li:hover {
+    background-color: #6E56CF;
+}
+
+.banner {
+    width: 100%;
+    
+}
+
+.image-container {
+    position: relative;
+    height: 25rem;
+    box-shadow: 0rem 0.9rem 0.6rem -0.6rem rgba(0, 0, 0, 0.5);
+    background-color: black;  /*remove if want img*/
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: cover;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Inter', Helvetica, Arial, Lucida, sans-serif;
+    color: white;
+}
+.banner-content h1{
+    background: linear-gradient(0deg, #6E56CF 0%, #F9D1FF 100%);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.banner-content p{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.button {
+    color: white;
+    text-transform: uppercase;
+    background-color: #6E56CF;
+    border-radius: 8px;
+    padding: 13px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button:hover{
+    background-color: #55439f;
+}
+section {
+    padding: 1.2rem;
+}
+
+.box {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.inner-box {
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.image-box img {
+    /* width: 100%; */
+    width: 20rem;
+    height: 12rem;
+    border-radius: 0.6rem;
+    transition: transform 0.3s ease-in;
+}
+
+.image-box img:hover {
+    transform: scale(1.2);
+}
+
+.text-box,
+.title-box,
+.link-td {
+    font-family: 'Raleway', 'Open Sans', Arial, sans-serif;
+}
+
+.title-box {
+    font-size: 1.25rem;
+    padding: 0.55rem 0.75rem;
+    border-bottom: 1.5px solid #6E56CF;
+    text-align: center;
+    font-weight: 300;
+}
+.text-box p{
+    padding: 0.5rem;
+}
+
+.link-td {
+    text-align: center;
+    padding: 0.7rem 0.3rem;
+    border: solid rgb(161, 161, 161);
+    border-width: 0.06rem 0rem;
+    /* margin-top: 0.625rem; */
+    font-size: 1.125rem;
+    color: rgb(161, 161, 161);
+}
+
+.link-td a:hover {
+    color: green;
+}
+
+/* .footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3.125rem;
+    background-image: url(images/bg1.png);
+    padding: 1.25rem;
+    border-top: 2px solid #6E56CF;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.container-box ul a {
+    color: whitesmoke;
+}
+
+.container-box h4 {
+    font-size: 1.0625rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-bottom: 0.0625rem solid white;
+    margin-bottom: 0.1875rem;
+    padding-bottom: 0.375rem;
+}
+
+.sub-footer {
+    text-align: center;
+    background: black;
+    color: white;
+    border-top: 0.0625rem solid grey;
+    padding: 0.625rem;
+} */
+.about{
+    color: black;
+    padding: 1.5rem;
+    max-width: 80rem;
+    font-size: 1.1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    /* padding: 1.3rem; */
+}
+.about h1{
+    text-align: center;
+    color: #5a3ec6;
+    /* text-transform:uppercase; */
+    /* padding-bottom: 0.5rem; */
+}
+.about-content{
+    text-align: center;
+    padding: 1rem;
+    text-wrap: balance;
+}
+.about-2xcontent{
+    display: flex;
+    padding: 1rem;
+    gap: 1.5rem;
+    max-width: 80rem;
+    align-items: center;
+    
+}
+.just{
+    padding: 0.5rem;
+    text-align: justify;
+    /* width: 30rem; */
+    
+}
+.just h2{
+    padding-bottom: 0.3rem;
+    color: #6E56CF;
+}
+.dropdown-menu {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0; 
+    background: black; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    width:9.3rem;
+    z-index: 1000;
+  }
+  
+  .dropdown-menu li {
+    width: 100%;
+    padding: 0.75rem; 
+  }
+  
+  .dropdown-menu a {
+    color: white; 
+    text-transform: none; 
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block; 
+  }
+
+
+  .footer {
+    background-color: black;
+    color: white;
+  } 
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 75rem;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.footer-section h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 0.5rem 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+.footer-section a{
+    color: white;
+}
+.footer-section a:hover{
+    color: gray;
+}
+
+.footer-section p {
+    margin: 0.5rem 0;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.7rem;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: gray; 
+}
+.sub-footer {
+    text-align: center;
+    background: black;
+    color: white;
+    border-top: 1px solid white;
+    padding: 12px;
+}
